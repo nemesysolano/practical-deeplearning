@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "practicaldeeplearningpython"
+version = "0.1.0"
+description = ""
+authors = ["Michael Aydinbas <michael.aydinbas@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+numpy = "^1.23.1"
+scipy = "^1.8.1"
+matplotlib = "^3.5.2"
+scikit-learn = "^1.1.1"
+Pillow = "^9.2.0"
+h5py = "^3.7.0"
+keras = "^2.9.0"
+tensorflow = "^2.9.1"
+jupyterlab = "^3.4.3"
+pandas = "^1.4.3"
+seaborn = "^0.11.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^22.6.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
